@@ -1,0 +1,54 @@
+.PhotosDiv {
+    width: 700px;
+    height: 800px;
+    border: solid black 2px;
+    margin: 0px;
+    float: left;
+}
+
+.Input {
+    height: 20px;
+    border: none;
+    background: #f1f1f1;
+}
+
+.FormDiv {
+    background-color: blanchedalmond;
+    width: 850px;
+    height: 800px;
+    position: relative;
+    border: solid black 2px;
+    margin: 0px;
+    float: left
+}
+
+.Label {
+    margin-left: 270px;
+    margin-top: 100px;
+}
+
+.ButtonSubmit {
+    font-size: 18px;
+    margin-top: 25px;
+    width: 120px;
+    margin-left: 40px;
+}
+
+.ButtonReset {
+    margin-left: 60px;
+}
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.PasswordError {
+    margin-left: 15px;
+    color: red;
+    visibility: hidden;
+}
+
+.Message {
+    text-align: center;
+}

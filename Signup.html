@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signup.css">
+    <title>Home Page</title>
+</head>
+
+<body onload="ShowPhotos()">
+    <div class="PhotosDiv" id="PhotosChild">
+        <img class="PhotosDiv" src="Nature.jpg" alt="" id="Image">
+    </div>
+    <div class="FormDiv">
+        <h2>Sign up</h2>
+        <p class="Message">Please fill in this form to create an account.</p>
+        <hr>
+        <form id="form" action="" class="Label">
+            <table cellspacing="15">
+                <tr>
+                    <td>Name :</td>
+                    <td>
+                        <input type="name" id="Name" placeholder="Name" class="Input" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td>
+                        <input type="email" id="Email" name="Email" id="" placeholder="Email" class="Input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td>
+                        <input type="password" id="Password" placeholder="Password" class="Input" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Repeat Password: </td>
+                    <td>
+                        <input type="password" id="RepeatPassword" placeholder="Repeat password" class="Input">
+                    </td>
+                </tr>
+            </table>
+            <p id="PasswordError" class="PasswordError">Password doesn't match</p>
+            <input type="submit" name="button" id="Submit" value="Sign up" class="ButtonSubmit">
+            <input type="reset" name="button" value="Reset" class="ButtonSubmit ButtonReset" onclick="Reset()">
+        </form>
+    </div>
+
+    <script src="Signup.js"></script>
+
+</body>
+
+</html>
